@@ -218,7 +218,7 @@ BEGIN
       );
 
   INSERT INTO countries VALUES
-      ( 'ML'
+      ( 'MY'
       , 'Malaysia'
       , 30
       );
