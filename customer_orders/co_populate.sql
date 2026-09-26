@@ -580,6 +580,9 @@ BEGIN
   INSERT INTO stores (store_id,store_name,physical_address,latitude,longitude) VALUES (21,'Bejing','China, Beijing Shi, Haidian Qu, Dongbeiwang W Rd, 8, 100085',40.0572,116.290061);
   INSERT INTO stores (store_id,store_name,physical_address,latitude,longitude) VALUES (22,'Tokyo','2 Chome-5-? Kitaaoyama, Minato City, Tokyo 107-0061, Japan',35.671534,139.718584);
   INSERT INTO stores (store_id,store_name,physical_address,latitude,longitude) VALUES (23,'Tel Aviv','B, Aharon Bart St 18, Petah Tikva, 4951400, Israel',32.100664,34.862138);
+  INSERT INTO stores (store_id,store_name,physical_address,latitude,longitude) VALUES (24,'Seoul','Trade Tower, Yeongdong-daero
+    Gangnam-gu
+    Seoul 06164',37.508997,127.060997);
 END;
 /
 
@@ -2538,6 +2541,33 @@ BEGIN
   INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1948,TO_TIMESTAMP('11-APR-2022 03.49.45.728114684','DD-MON-YYYY HH24.MI.SS.FF'),319,23,'COMPLETE');
   INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1949,TO_TIMESTAMP('11-APR-2022 19.14.31.588169133','DD-MON-YYYY HH24.MI.SS.FF'),348,23,'COMPLETE');
   INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1950,TO_TIMESTAMP('12-APR-2022 21.41.06.642640525','DD-MON-YYYY HH24.MI.SS.FF'),348,23,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1951,TO_TIMESTAMP('01-APR-2022 13.25.23.193128394','DD-MON-YYYY HH24.MI.SS.FF'),27,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1952,TO_TIMESTAMP('24-FEB-2022 16.39.16.830302415','DD-MON-YYYY HH24.MI.SS.FF'),110,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1953,TO_TIMESTAMP('06-MAR-2022 14.52.24.593133707','DD-MON-YYYY HH24.MI.SS.FF'),227,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1954,TO_TIMESTAMP('12-MAR-2022 09.09.11.342632096','DD-MON-YYYY HH24.MI.SS.FF'),85,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1955,TO_TIMESTAMP('05-OCT-2021 04.36.01.480678258','DD-MON-YYYY HH24.MI.SS.FF'),257,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1956,TO_TIMESTAMP('30-JAN-2022 14.38.31.657422233','DD-MON-YYYY HH24.MI.SS.FF'),257,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1957,TO_TIMESTAMP('12-DEC-2021 06.47.29.833896028','DD-MON-YYYY HH24.MI.SS.FF'),85,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1958,TO_TIMESTAMP('12-SEP-2021 17.40.35.354347069','DD-MON-YYYY HH24.MI.SS.FF'),313,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1959,TO_TIMESTAMP('29-MAR-2021 11.45.09.909099375','DD-MON-YYYY HH24.MI.SS.FF'),30,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1960,TO_TIMESTAMP('13-FEB-2021 03.41.44.124636753','DD-MON-YYYY HH24.MI.SS.FF'),30,24,'REFUNDED');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1961,TO_TIMESTAMP('05-DEC-2021 00.03.47.458141062','DD-MON-YYYY HH24.MI.SS.FF'),291,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1962,TO_TIMESTAMP('22-FEB-2021 11.11.37.988442119','DD-MON-YYYY HH24.MI.SS.FF'),144,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1963,TO_TIMESTAMP('18-JUN-2021 14.00.38.839685764','DD-MON-YYYY HH24.MI.SS.FF'),112,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1964,TO_TIMESTAMP('29-JUN-2021 19.13.30.949716004','DD-MON-YYYY HH24.MI.SS.FF'),291,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1965,TO_TIMESTAMP('06-JUL-2021 16.14.47.104161467','DD-MON-YYYY HH24.MI.SS.FF'),144,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1966,TO_TIMESTAMP('17-MAR-2021 17.54.50.469059455','DD-MON-YYYY HH24.MI.SS.FF'),110,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1967,TO_TIMESTAMP('05-MAY-2021 00.49.40.231246972','DD-MON-YYYY HH24.MI.SS.FF'),227,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1968,TO_TIMESTAMP('11-MAR-2021 03.48.11.651031486','DD-MON-YYYY HH24.MI.SS.FF'),139,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1969,TO_TIMESTAMP('29-DEC-2021 06.02.05.805900309','DD-MON-YYYY HH24.MI.SS.FF'),144,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1970,TO_TIMESTAMP('28-FEB-2021 13.27.27.568368673','DD-MON-YYYY HH24.MI.SS.FF'),54,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1971,TO_TIMESTAMP('14-FEB-2021 05.17.18.829523829','DD-MON-YYYY HH24.MI.SS.FF'),54,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1972,TO_TIMESTAMP('11-JUL-2021 12.19.43.100395711','DD-MON-YYYY HH24.MI.SS.FF'),200,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1973,TO_TIMESTAMP('29-MAY-2021 18.16.52.837860771','DD-MON-YYYY HH24.MI.SS.FF'),112,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1974,TO_TIMESTAMP('09-NOV-2021 22.46.45.997558926','DD-MON-YYYY HH24.MI.SS.FF'),85,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1975,TO_TIMESTAMP('23-JAN-2022 20.46.03.115520456','DD-MON-YYYY HH24.MI.SS.FF'),144,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1976,TO_TIMESTAMP('30-APR-2021 06.00.24.787733484','DD-MON-YYYY HH24.MI.SS.FF'),30,24,'COMPLETE');
+  INSERT INTO orders (order_id,order_tms,customer_id,store_id,order_status) VALUES (1977,TO_TIMESTAMP('15-JAN-2022 10.55.38.144857333','DD-MON-YYYY HH24.MI.SS.FF'),86,24,'COMPLETE');
 END;
 /
 
@@ -8360,6 +8390,63 @@ BEGIN
   INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1949,2,41,8.66,2,NULL);
   INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1950,1,31,28.59,4,NULL);
   INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1950,2,26,48.75,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1951,1,2,8.66,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1951,2,20,10.33,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1952,1,37,43.71,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1952,2,42,44.17,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1952,3,12,29.55,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1953,1,32,13.09,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1953,2,4,27.64,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1953,3,40,13.97,1,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1954,1,25,37.34,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1954,2,24,27.64,2,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1955,1,27,39.16,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1955,2,1,30.69,2,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1956,1,10,44.17,1,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1956,2,29,19.16,1,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1957,1,9,22.98,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1957,2,4,48.39,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1957,3,13,29.55,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1958,1,27,22.98,1,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1958,2,12,10.11,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1958,3,4,29.51,2,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1959,1,1,13.97,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1959,2,24,29.55,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1960,1,39,37.0,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1960,2,37,8.66,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1961,1,44,10.33,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1961,2,37,37.0,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1962,1,39,16.64,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1962,2,2,34.06,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1963,1,33,39.89,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1963,2,40,22.98,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1964,1,21,48.75,2,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1964,2,2,13.09,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1965,1,21,22.98,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1965,2,10,9.8,2,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1966,1,40,10.11,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1966,2,41,19.58,2,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1967,1,23,10.48,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1968,1,32,38.34,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1968,2,26,16.64,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1969,1,10,10.33,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1969,2,5,21.16,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1970,1,30,48.39,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1970,2,4,21.16,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1970,3,23,28.21,2,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1971,1,31,31.68,1,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1971,2,28,10.11,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1972,1,14,39.91,1,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1972,2,46,10.11,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1973,1,17,39.91,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1974,1,1,24.71,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1974,2,14,7.18,2,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1975,1,41,48.75,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1975,2,13,37.0,5,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1976,1,3,34.06,1,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1976,2,4,24.46,3,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1977,1,38,29.55,4,NULL);
+  INSERT INTO order_items (order_id,line_item_id,product_id,unit_price,quantity,shipment_id) VALUES (1977,2,15,24.46,4,NULL);
 END;
 /
 
@@ -8934,6 +9021,29 @@ BEGIN
   INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (32,14,0);
   INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (32,15,1);
   INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (32,19,8);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (2,24,9);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (3,24,0);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (5,24,3);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (7,24,7);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (8,24,7);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (9,24,2);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (10,24,6);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (12,24,2);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (15,24,11);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (16,24,1);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (18,24,0);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (20,24,3);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (23,24,1);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (24,24,8);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (27,24,17);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (31,24,5);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (32,24,8);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (33,24,11);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (37,24,2);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (38,24,1);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (42,24,9);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (44,24,7);
+  INSERT INTO inventory (product_id,store_id,product_inventory) VALUES (45,24,0);
 END;
 /
 

@@ -195,17 +195,17 @@ SELECT 'Verification:' AS "Installation verification" FROM dual;
 
 SELECT 'customers' AS "Table", 392 AS "provided", count(1) AS "actual" FROM co.customers
 UNION ALL
-SELECT 'stores' AS "Table", 23 AS "provided", count(1) AS "actual" FROM co.stores
+SELECT 'stores' AS "Table", 24 AS "provided", count(1) AS "actual" FROM co.stores
 UNION ALL
 SELECT 'products' AS "Table", 46 AS "provided", count(1) AS "actual" FROM co.products
 UNION ALL
-SELECT 'orders' AS "Table", 1950 AS "provided", count(1) AS "actual" FROM co.orders
+SELECT 'orders' AS "Table", 1977 AS "provided", count(1) AS "actual" FROM co.orders
 UNION ALL
 SELECT 'shipments' AS "Table", 1892 AS "provided", count(1) AS "actual" FROM co.shipments
 UNION ALL
-SELECT 'order_items' AS "Table", 3914 AS "provided", count(1) AS "actual" FROM co.order_items
+SELECT 'order_items' AS "Table", 3971 AS "provided", count(1) AS "actual" FROM co.order_items
 UNION ALL
-SELECT 'inventory' AS "Table", 566 AS "provided", count(1) AS "actual" FROM co.inventory;
+SELECT 'inventory' AS "Table", 589 AS "provided", count(1) AS "actual" FROM co.inventory;
 
 rem
 rem Installation finish text.
