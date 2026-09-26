@@ -202,7 +202,7 @@ SELECT 'channels' AS "Table", 5 AS "provided", count(1) AS "actual" FROM channel
 UNION ALL
 SELECT 'costs' AS "Table", 82112 AS "provided", count(1) AS "actual" FROM costs
 UNION ALL
-SELECT 'countries' AS "Table", 35 AS "provided", count(1) AS "actual" FROM countries
+SELECT 'countries' AS "Table", 36 AS "provided", count(1) AS "actual" FROM countries
 UNION ALL
 SELECT 'customers' AS "Table", 55500 AS "provided", count(1) AS "actual" FROM customers
 UNION ALL

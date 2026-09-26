@@ -191,6 +191,8 @@ BEGIN
       (52802, 'RO', 'Romania',        'Eastern Europe', 52795, 'Europe', 52803, 'World total', 52806 );
    INSERT INTO countries VALUES
       (52803, 'HU', 'Hungary',        'Eastern Europe', 52795, 'Europe', 52803, 'World total', 52806 );
+   INSERT INTO countries VALUES
+      (52807, 'KR', 'South Korea',    'Asia', 52793, 'Asia', 52802, 'World total', 52806 );
 END;
 /
 
