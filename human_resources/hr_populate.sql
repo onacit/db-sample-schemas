@@ -240,6 +240,12 @@ BEGIN
       , 'Belgium'
       , 10
       );
+
+  INSERT INTO countries VALUES
+      ( 'KR'
+      , 'South Korea'
+      , 30
+      );
 END;
 /
 
@@ -454,6 +460,15 @@ BEGIN
       , 'Mexico City'
       , 'Distrito Federal'
       , 'MX'
+      );
+
+  INSERT INTO locations VALUES
+      ( 3300
+      , 'Trade Tower, Yeongdong-daero'
+      , '06164'
+      , 'Seoul'
+      , NULL
+      , 'KR'
       );
 END;
 /

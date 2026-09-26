@@ -200,11 +200,11 @@ SELECT 'Verification:' AS "Installation verification" FROM dual;
 
 SELECT 'regions' AS "Table", 5 AS "provided", count(1) AS "actual" FROM hr.regions
 UNION ALL
-SELECT 'countries' AS "Table", 25 AS "provided", count(1) AS "actual" FROM hr.countries
+SELECT 'countries' AS "Table", 26 AS "provided", count(1) AS "actual" FROM hr.countries
 UNION ALL
 SELECT 'departments' AS "Table", 27 AS "provided", count(1) AS "actual" FROM hr.departments
 UNION ALL
-SELECT 'locations' AS "Table", 23 AS "provided", count(1) AS "actual" FROM hr.locations
+SELECT 'locations' AS "Table", 24 AS "provided", count(1) AS "actual" FROM hr.locations
 UNION ALL
 SELECT 'employees' AS "Table", 107 AS "provided", count(1) AS "actual" FROM hr.employees
 UNION ALL

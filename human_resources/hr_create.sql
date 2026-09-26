@@ -128,7 +128,7 @@ Rem 	Useful for any subsequent addition of rows to locations table
 Rem 	Starts with 3300
 
 CREATE SEQUENCE locations_seq
- START WITH     3300
+ START WITH     3400
  INCREMENT BY   100
  MAXVALUE       9900
  NOCACHE
