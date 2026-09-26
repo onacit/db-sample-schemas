@@ -174,7 +174,7 @@ BEGIN
    INSERT INTO countries VALUES
       (52794, 'CH', 'Switzerland',    'Western Europe', 52799, 'Europe', 52803, 'World total', 52806 );
    INSERT INTO countries VALUES
-      (52795, 'CL', 'Chile',          'Southern America', 52798, 'Americas', 52798, 'World total', 52806 );
+      (52795, 'CL', 'Chile',          'Southern America', 52798, 'Americas', 52801, 'World total', 52806 );
    INSERT INTO countries VALUES
       (52796, 'TH', 'Thailand',       'Asia', 52793, 'Asia', 52802, 'World total', 52806 );
    INSERT INTO countries VALUES
